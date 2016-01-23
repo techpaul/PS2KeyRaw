@@ -46,7 +46,7 @@ The PS2 Keyboard interface is a *Bi-directional* two wire interface with a clock
     
 ###Installation
 
-Perfoemed by standard zip file library inclusion into Arduino IDE
+Performed by standard zip file library inclusion into Arduino IDE
 
 ###Examples
 

@@ -51,3 +51,8 @@ Perfoemed by standard zip file library inclusion into Arduino IDE
 ###Examples
 
 This library has ONE example, SimpleTest that uses the serial port to output the codes received on every keystroke and auto-repeat, some keyboards change codes on auto-repeat; which you will be able to see for yourself.
+
+####Contributor and Author Details
+
+Author   Paul Carpenter, PC Services
+Web Site http://www.pcserviceselectronics.co.uk

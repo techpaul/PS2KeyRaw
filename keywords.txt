@@ -10,9 +10,9 @@ PS2KeyRaw	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-begin       KEYWORD2
+begin	KEYWORD2
 available	KEYWORD2
-read	    KEYWORD2
+read	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

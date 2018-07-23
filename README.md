@@ -1,6 +1,8 @@
 # PS2KeyRaw
 ## Arduino PS2 keyboard interface light footprint all bytes from keyboard
 
+**V1.0.3** July 2018 Improved keywords file
+
 First Public Release Version V1.0.2
 
 Smaller footprint than any others found

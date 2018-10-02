@@ -1,7 +1,9 @@
 # PS2KeyRaw
 ## Arduino PS2 keyboard interface light footprint all bytes from keyboard
 
-**V1.0.3** July 2018 Improved keywords file
+V1.0.4 October 2018 Fix wrong numbers reported for PS2KeyRaw::available() and simplify
+
+V1.0.3 July 2018 Improved keywords file
 
 First Public Release Version V1.0.2
 

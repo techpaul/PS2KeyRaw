@@ -1,4 +1,4 @@
-/* Version V1.0.2
+/* Version V1.0.4
   PS2KeyRaw.cpp - PS2KeyRaw library
   Copyright (c) 2007 Free Software Foundation.  All right reserved.
   Written by Paul Carpenter, PC Services <sales@pcserviceselectronics.co.uk>
@@ -136,9 +136,7 @@ int8_t PS2KeyRaw::available()
 {
 int8_t  i;
 
-if( tail == head )
-  return false;
-i = tail - head;
+i = head - tail;
 if( i < 0 )
   i += BUFFER_SIZE;
 return i;

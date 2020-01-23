@@ -1,7 +1,8 @@
-/* Version V1.0.2
+/* Version V1.0.5
   PS2KeyRaw.h - PS2KeyRaw library
   Copyright (c) 2007 Free Software Foundation.  All right reserved.
   Written by Paul Carpenter, PC Services <sales@pcserviceselectronics.co.uk>
+    Update Jan-2020 Paul Carpenter, Improve conditionals for other platform support
 
   Stripped down version of PS2Keyboard to get every key code byte from a PS2 
   Keyboard for testing purposes. Enables capture of all bytes see examples.
@@ -57,6 +58,7 @@
   ** Modified for easy interrupt pin assignment on method begin(datapin,irq_pin). Cuningan <cuninganreset@gmail.com> **
   V1.0.1 Modified September 2014 Paul Carpenter for easier state machines and parity checks
   V1.0.2 Modified January 2016 to improve interrupt assignment with new Arduino macros
+  V1.0.5 Modified January 2020 to match newer Library Manager and reduce warning errors
 
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -79,7 +81,7 @@
 
 /**
  * Purpose: Provides an easy access to PS2 keyboards
- * Author:  Christian Weichel
+ * Based On:  Christian Weichel
  */
 class PS2KeyRaw {
   public:

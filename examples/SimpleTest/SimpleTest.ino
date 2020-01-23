@@ -69,11 +69,7 @@ PS2KeyRaw keyboard;
 void setup() {
   keyboard.begin( DATAPIN, IRQPIN );
   Serial.begin( 115200 );
-#if defined(ARDUINO_ARCH_AVR)
-  Serial.println( F( "PS2 Raw Test of PS2 Keyboard codes" ) );
-#elif defined(ARDUINO_ARCH_SAM)
   Serial.println( "PS2 Raw Test of PS2 Keyboard codes" );
-#endif
 }
 
 void loop()

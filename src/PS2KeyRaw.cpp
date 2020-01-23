@@ -1,7 +1,8 @@
-/* Version V1.0.4
+/* Version V1.0.5
   PS2KeyRaw.cpp - PS2KeyRaw library
   Copyright (c) 2007 Free Software Foundation.  All right reserved.
   Written by Paul Carpenter, PC Services <sales@pcserviceselectronics.co.uk>
+    Update Jan-2020 Paul Carpenter, Improve conditionals for other platform support
 
   Stripped down version of PS2Keyboard to get every key code byte from a PS2 
   Keyboard for testing purposes. Enables capture of all bytes see example.
@@ -110,7 +111,8 @@ void ps2interrupt( void )
                     head = val;
                     }
                   }
-                // fall through to default
+                bitcount = 0;
+                break;
        default: // in case of weird error and end of byte reception re-sync
                 bitcount = 0;
       }
